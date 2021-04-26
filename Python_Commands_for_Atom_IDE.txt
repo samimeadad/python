@@ -1,0 +1,5 @@
+Python Commands for Atom IDE
+
+ctrl+shift+p		: search for option
+ctrl+shift+b		: run a code
+ctrl+alt+shift+o    : run option
