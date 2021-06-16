@@ -1,7 +1,7 @@
 # This program multiplies two numbers
 
 num1 = 1.5
-num2 = 6.3
+num2 = 7.3
 
 # Add two numbers
 mul = num1*num2
