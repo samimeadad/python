@@ -1,7 +1,1 @@
-import pandas as pd
-
-dataPath = "/Users/sami/Downloads/book1.xlsx";
-
-df = pd.read_excel(dataPath);
-
-print(df);
+"D:\Training\Big-Data-Data-Analytics-Data-Science-Pondit\Excel Files\sp500.csv"
