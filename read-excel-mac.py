@@ -1,7 +1,7 @@
-import pandas as pd
+from openpyxl import load_workbook
 
 dataPath = "/Users/sami/Downloads/book1.xlsx";
 
-df = pd.read_excel(dataPath);
+wb = load_workbook(dataPath);
 
-print(df);
+print(wb);
