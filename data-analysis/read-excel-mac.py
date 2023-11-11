@@ -1,7 +1,7 @@
 import pandas as pd
 
-dataPath = "/Users/sami/Downloads/book1.xlsx";
+dataPath = "/Users/sami/Downloads/book1.xlsx"
 
-df = pd.load_excel(dataPath);
+df = pd.read_excel(dataPath)
 
-print(df);
+print(df)
