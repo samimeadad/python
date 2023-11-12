@@ -1,7 +1,14 @@
-from openpyxl import load_workbook
 
-dataPath = "D:\Training\Big-Data-Data-Analytics-Data-Science-Pondit\Excel Files\CustomerMaster.xlsx"
+import openpyxl
 
-wb = load_workbook(dataPath)
+dataPath = "D:\\Training\\Big-Data-Data-Analytics-Data-Science-Pondit\\Excel Files\\duplicate-data.xlsx"
 
-print(wb)
+df = openpyxl.load_workbook(dataPath)
+
+print(df)
+
+df1 = df.active
+
+for row in range(0, df1.max_row):
+    for col in df1.iter_cols(1, df1.max_column):
+        print(col[row].value)
