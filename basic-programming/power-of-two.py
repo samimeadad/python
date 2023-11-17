@@ -1,3 +1,3 @@
-a = int(input())
+a = int(input("Enter the exponent value: "))
 power = 2**a
-print(power)
+print(f"{a}th power of 2 = {power}")
