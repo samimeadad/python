@@ -21,6 +21,17 @@ def hangman():
 
     lives = 6
 
+    print("****************************************************************************************")
+    print("*                                                                                      *")
+    print("*                                                                                      *")
+    print("*                                                                                      *")
+    print("*                               Welcome To Hangman Game!                               *")
+    print("*                                                                                      *")
+    print("*                                                                                      *")
+    print("*                                                                                      *")
+    print("****************************************************************************************")
+    print("\n\n\n")
+
     # Getting User Input
     while len(wordLetters) > 0 and lives > 0:
         # letter used
@@ -31,7 +42,7 @@ def hangman():
         # what current word is(ie: W - R D)
         wordList = [
             letter if letter in usedLetters else '-' for letter in word]
-        print("Current word: ", " ".join(wordList))
+        print("\nCurrent word: ", " ".join(wordList))
 
         userLetter = input("Guess a letter: ").upper()
         if userLetter in alphabet - usedLetters:
@@ -51,9 +62,9 @@ def hangman():
     # gets here when len (wordLetters) == 0 OR when livves == 0
 
     if lives == 0:
-        print("Sorry, you have died. The word was ", word)
+        print("\nSorry, you have died. The word was ", word)
     else:
-        print("You have guessed the word correctly. The word is ", word, "!!!")
+        print("\nYou have guessed the word correctly. The word is ", word, "!!!")
 
 
 hangman()  # call the main function
