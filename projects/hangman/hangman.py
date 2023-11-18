@@ -62,9 +62,9 @@ def hangman():
     # gets here when len (wordLetters) == 0 OR when livves == 0
 
     if lives == 0:
-        print("\nSorry, you have died. The word was ", word)
+        print("\nSorry, you have died. The word was", word, "\n")
     else:
-        print("\nYou have guessed the word correctly. The word is ", word, "!!!")
+        print("\nYou have guessed the word correctly. The word is ", word, "!!!\n")
 
 
 hangman()  # call the main function
