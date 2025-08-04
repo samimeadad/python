@@ -6,5 +6,5 @@ num2 = 1.5
 # Add two numbers
 sub = num1-num2
 
-# Display the sum
+# Display the subtraction result
 print('The subtraction of {0} and {1} is {2}'.format(num1, num2, sub))
