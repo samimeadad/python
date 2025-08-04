@@ -5,5 +5,5 @@ num2 = 2
 
 div = num1/num2
 
-# Display the sum
+# Display the division result
 print('The division of {0} and {1} is {2}'.format(num1, num2, div))
